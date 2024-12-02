@@ -15,12 +15,12 @@ export default function Menu(props) {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Item>
-                            <Nav.Link as={Link} to="/BCCLP2Prova2B/usuario" className="text-center fs-5">
+                            <Nav.Link as={Link} to="/Prova2oBimestre/usuario" className="text-center fs-5">
                                 Usuários
                             </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link as={Link} to="/BCCLP2Prova2B/chat" className="text-center fs-5">
+                            <Nav.Link as={Link} to="/Prova2oBimestre/chat" className="text-center fs-5">
                                 Bate-Papo
                             </Nav.Link>
                         </Nav.Item>
