@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Prova2oBimestre/static/css/main.d221dc40.css",
+    "main.js": "/Prova2oBimestre/static/js/main.5cfbc61e.js",
+    "static/media/404.png": "/Prova2oBimestre/static/media/404.b7bc2e8fb400e3b19183.png",
+    "index.html": "/Prova2oBimestre/index.html",
+    "main.d221dc40.css.map": "/Prova2oBimestre/static/css/main.d221dc40.css.map",
+    "main.5cfbc61e.js.map": "/Prova2oBimestre/static/js/main.5cfbc61e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d221dc40.css",
+    "static/js/main.5cfbc61e.js"
+  ]
+}
