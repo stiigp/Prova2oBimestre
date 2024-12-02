@@ -35,7 +35,7 @@ export default function FormCadastroUsuario(props) {
         if (form.checkValidity()) {
             setFormValidado(false);            
             despachante(gravarUsuario(usuario));
-            window.alert("Usuario " + usuario.nickname +" inserido!")
+            // window.alert("Usuario " + usuario.nickname +" inserido!");
             setUsuario(zeraUsuario);
             props.setExibirUsuarios(true);
         }

@@ -66,7 +66,7 @@ export default function TelaBatePapo() {
         })
 
         
-        if (res.json()["senhaCorreta"] == true) {
+        if (res.json()["senhaCorreta"] === true) {
             return true;
         } else {
             return false

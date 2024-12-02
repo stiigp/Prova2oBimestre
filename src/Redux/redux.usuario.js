@@ -28,18 +28,21 @@ export const gravarUsuario = createAsyncThunk('gravarUsuario', async (usuario) =
         const resposta = await gravar(usuario);
         if (resposta.status) {
             usuario.id = resposta.id;
+            window.alert(resposta.mensagem);
             return {
                 status: true,
                 mensagem: resposta.mensagem,
                 usuario
             };
         } else {
+            window.alert(resposta.mensagem);
             return {
                 status: false,
                 mensagem: resposta.mensagem
             };
         }
     } catch (erro) {
+        window.alert(erro.mensagem);
         return {
             status: false,
             mensagem: erro.mensagem
