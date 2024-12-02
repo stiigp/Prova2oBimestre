@@ -9,9 +9,9 @@ function App() {
         <>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/BCCLP2Prova2B" element={<TelaHome />} />
-                    <Route path="/BCCLP2Prova2B/usuario" element={<TelaCadastroUsuario />} />
-                    <Route path="/BCCLP2Prova2B/chat" element={<TelaBatePapo />} />
+                    <Route path="/Prova2oBimestre" element={<TelaHome />} />
+                    <Route path="/Prova2oBimestre/usuario" element={<TelaCadastroUsuario />} />
+                    <Route path="/Prova2oBimestre/chat" element={<TelaBatePapo />} />
                     <Route path="*" element={<Tela404 />} />
                 </Routes>
             </BrowserRouter>
