@@ -9,7 +9,7 @@ function App() {
         <>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<TelaHome />} />
+                    <Route path="/Prova2oBimestre" element={<TelaHome />} />
                     <Route path="/usuario" element={<TelaCadastroUsuario />} />
                     <Route path="/chat" element={<TelaBatePapo />} />
                     <Route path="*" element={<Tela404 />} />
